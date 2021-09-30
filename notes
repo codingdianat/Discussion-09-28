@@ -1,0 +1,73 @@
+//
+//  main.cpp
+//  helloworld_09_28
+//
+//  Created by Diana Tran on 9/28/21.
+//
+
+#include <iostream>
+
+using namespace std;
+int main() {
+    // review for the escape sequence
+    //     \n is escape sequence, \" is escape sequence
+    /*
+     How to print phrase with words in quotes
+     write: "\ "(what you want to print in quotes)" \n"
+     */
+    cout<< " \"This\" \n";
+    cout<<"something1 \n";
+    cout<<"print \\newworld \n";
+    
+    
+    int i=5;
+    i=5+2-1;
+    cout<<i<<"\n";
+    
+    int l =5;
+    cout<<"Value of l is initially "<<l<<"\n";
+    l=5+l;
+    cout<<"Value of l is later "<<l<<"\n";
+    
+    int t = 5;
+    t= 5 * t +4 / l + 3/t;
+    cout<< "what the fuck "<<t<<"\n";
+    //int only takes value before decimal
+    
+    int r = 5;
+    r = 7%r;
+    cout<< "what the fuck "<<r;
+    //int only takes value before decimal
+    
+    r = r+1;
+    r++;
+    i-= 1;
+    
+    int z = 3;
+    z-=1;
+    cout<<endl<<z<<endl;
+    //second one increments by one same as the above but faster
+    
+    int q;
+    cout<<"dont forget to give a value for q or else you will get "<<q;
+    
+    
+    int g = 4.5;
+    cout<<endl<<4.0/3.0 -1.0-1.0/3.0;
+    
+    return 0;
+}
+
+
+/*  "This" 
+something1 
+print \newworld 
+6
+Value of l is initially 5
+Value of l is later 10
+what the fuck 25
+what the fuck 2
+2
+dont forget to give a value for q or else you will get 0
+-5.55112e-17Program ended with exit code: 0
+*/
